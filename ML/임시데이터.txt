@@ -1,0 +1,624 @@
+FinBERT device: cuda
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+config.json: 100%
+ 533/533 [00:00<00:00, 55.1kB/s]
+vocab.txt: 
+ 226k/? [00:00<00:00, 7.22MB/s]
+pytorch_model.bin: 100%
+ 439M/439M [00:04<00:00, 135MB/s]
+
+=== CJ 분석 시작 ===
+model.safetensors: 100%
+ 439M/439M [00:05<00:00, 57.1MB/s]
+완료 → {'company': 'CJ', 'news_sentiment_score': np.float64(-52.92), 'news_count': 30, 'sentiment_volatility': 0.4649, 'positive_ratio': 0.0, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.9921}
+
+=== CJ ENM 분석 시작 ===
+완료 → {'company': 'CJ ENM', 'news_sentiment_score': np.float64(-42.92), 'news_count': 30, 'sentiment_volatility': 0.5189, 'positive_ratio': 0.0333, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.8867}
+
+=== CJ제일제당 분석 시작 ===
+완료 → {'company': 'CJ제일제당', 'news_sentiment_score': np.float64(-13.13), 'news_count': 30, 'sentiment_volatility': 0.5684, 'positive_ratio': 0.1333, 'negative_ratio': 0.2667, 'recency_weight_mean': 0.9185}
+
+=== HMM 분석 시작 ===
+완료 → {'company': 'HMM', 'news_sentiment_score': np.float64(-76.41), 'news_count': 30, 'sentiment_volatility': 0.5532, 'positive_ratio': 0.0667, 'negative_ratio': 0.8333, 'recency_weight_mean': 0.9906}
+
+=== KT 분석 시작 ===
+완료 → {'company': 'KT', 'news_sentiment_score': np.float64(-38.93), 'news_count': 29, 'sentiment_volatility': 0.826, 'positive_ratio': 0.2414, 'negative_ratio': 0.6207, 'recency_weight_mean': 0.987}
+
+=== KT&G 분석 시작 ===
+완료 → {'company': 'KT&G', 'news_sentiment_score': np.float64(-46.87), 'news_count': 30, 'sentiment_volatility': 0.552, 'positive_ratio': 0.0333, 'negative_ratio': 0.5, 'recency_weight_mean': 0.9173}
+
+=== LG생활건강 분석 시작 ===
+완료 → {'company': 'LG생활건강', 'news_sentiment_score': np.float64(-74.43), 'news_count': 30, 'sentiment_volatility': 0.5427, 'positive_ratio': 0.0667, 'negative_ratio': 0.8333, 'recency_weight_mean': 0.9612}
+
+=== LG에너지솔루션 분석 시작 ===
+완료 → {'company': 'LG에너지솔루션', 'news_sentiment_score': np.float64(-26.5), 'news_count': 30, 'sentiment_volatility': 0.7772, 'positive_ratio': 0.2333, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.9674}
+
+=== LG유플러스 분석 시작 ===
+완료 → {'company': 'LG유플러스', 'news_sentiment_score': np.float64(-26.74), 'news_count': 30, 'sentiment_volatility': 0.8259, 'positive_ratio': 0.3333, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.9935}
+
+=== LG전자 분석 시작 ===
+완료 → {'company': 'LG전자', 'news_sentiment_score': np.float64(-30.9), 'news_count': 30, 'sentiment_volatility': 0.3924, 'positive_ratio': 0.0, 'negative_ratio': 0.3, 'recency_weight_mean': 0.9932}
+
+=== LG화학 분석 시작 ===
+완료 → {'company': 'LG화학', 'news_sentiment_score': np.float64(-39.34), 'news_count': 30, 'sentiment_volatility': 0.5971, 'positive_ratio': 0.1, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.9925}
+
+=== NAVER 분석 시작 ===
+완료 → {'company': 'NAVER', 'news_sentiment_score': np.float64(-43.47), 'news_count': 30, 'sentiment_volatility': 0.6986, 'positive_ratio': 0.1667, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.9151}
+
+=== POSCO홀딩스 분석 시작 ===
+완료 → {'company': 'POSCO홀딩스', 'news_sentiment_score': np.float64(-20.59), 'news_count': 29, 'sentiment_volatility': 0.5827, 'positive_ratio': 0.1034, 'negative_ratio': 0.3448, 'recency_weight_mean': 0.8576}
+
+=== S-Oil 분석 시작 ===
+완료 → {'company': 'S-Oil', 'news_sentiment_score': np.float64(-32.61), 'news_count': 30, 'sentiment_volatility': 0.4244, 'positive_ratio': 0.0, 'negative_ratio': 0.3, 'recency_weight_mean': 0.9667}
+
+=== SK이노베이션 분석 시작 ===
+완료 → {'company': 'SK이노베이션', 'news_sentiment_score': np.float64(-76.41), 'news_count': 30, 'sentiment_volatility': 0.5542, 'positive_ratio': 0.0667, 'negative_ratio': 0.8333, 'recency_weight_mean': 0.9654}
+
+=== SK텔레콤 분석 시작 ===
+완료 → {'company': 'SK텔레콤', 'news_sentiment_score': np.float64(-21.99), 'news_count': 30, 'sentiment_volatility': 0.6838, 'positive_ratio': 0.1667, 'negative_ratio': 0.4, 'recency_weight_mean': 0.9502}
+
+=== SK하이닉스 분석 시작 ===
+완료 → {'company': 'SK하이닉스', 'news_sentiment_score': np.float64(-38.77), 'news_count': 30, 'sentiment_volatility': 0.5166, 'positive_ratio': 0.0333, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.9896}
+
+=== 기아 분석 시작 ===
+완료 → {'company': '기아', 'news_sentiment_score': np.float64(-82.37), 'news_count': 30, 'sentiment_volatility': 0.3589, 'positive_ratio': 0.0, 'negative_ratio': 0.8333, 'recency_weight_mean': 0.9947}
+
+=== 대한항공 분석 시작 ===
+완료 → {'company': '대한항공', 'news_sentiment_score': np.float64(-65.37), 'news_count': 30, 'sentiment_volatility': 0.4652, 'positive_ratio': 0.0, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.9954}
+
+=== 두산에너빌리티 분석 시작 ===
+완료 → {'company': '두산에너빌리티', 'news_sentiment_score': np.float64(8.06), 'news_count': 30, 'sentiment_volatility': 0.8043, 'positive_ratio': 0.3667, 'negative_ratio': 0.3, 'recency_weight_mean': 0.9354}
+
+=== 롯데케미칼 분석 시작 ===
+완료 → {'company': '롯데케미칼', 'news_sentiment_score': np.float64(-73.51), 'news_count': 30, 'sentiment_volatility': 0.4727, 'positive_ratio': 0.0333, 'negative_ratio': 0.8, 'recency_weight_mean': 0.9195}
+
+=== 리더스코스메틱 분석 시작 ===
+완료 → {'company': '리더스코스메틱', 'news_sentiment_score': np.float64(-63.0), 'news_count': 30, 'sentiment_volatility': 0.4472, 'positive_ratio': 0.0, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.3426}
+
+=== 매일홀딩스 분석 시작 ===
+완료 → {'company': '매일홀딩스', 'news_sentiment_score': np.float64(-31.87), 'news_count': 30, 'sentiment_volatility': 0.6265, 'positive_ratio': 0.1, 'negative_ratio': 0.5, 'recency_weight_mean': 0.3417}
+
+=== 매커스 분석 시작 ===
+완료 → {'company': '매커스', 'news_sentiment_score': np.float64(-68.13), 'news_count': 30, 'sentiment_volatility': 0.5479, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.4134}
+
+=== 멀티캠퍼스 분석 시작 ===
+완료 → {'company': '멀티캠퍼스', 'news_sentiment_score': np.float64(-39.38), 'news_count': 30, 'sentiment_volatility': 0.5927, 'positive_ratio': 0.0667, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.7042}
+
+=== 메디톡스 분석 시작 ===
+완료 → {'company': '메디톡스', 'news_sentiment_score': np.float64(16.62), 'news_count': 30, 'sentiment_volatility': 0.4741, 'positive_ratio': 0.2333, 'negative_ratio': 0.0333, 'recency_weight_mean': 0.8375}
+
+=== 멕아이씨에스 분석 시작 ===
+완료 → {'company': '멕아이씨에스', 'news_sentiment_score': np.float64(-12.84), 'news_count': 29, 'sentiment_volatility': 0.4787, 'positive_ratio': 0.069, 'negative_ratio': 0.1724, 'recency_weight_mean': 0.2002}
+
+=== 명문제약 분석 시작 ===
+완료 → {'company': '명문제약', 'news_sentiment_score': np.float64(-36.67), 'news_count': 30, 'sentiment_volatility': 0.5961, 'positive_ratio': 0.1, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.611}
+
+=== 모나리자 분석 시작 ===
+완료 → {'company': '모나리자', 'news_sentiment_score': np.float64(-30.58), 'news_count': 30, 'sentiment_volatility': 0.8055, 'positive_ratio': 0.2333, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.8877}
+
+=== 무학 분석 시작 ===
+완료 → {'company': '무학', 'news_sentiment_score': np.float64(-59.4), 'news_count': 30, 'sentiment_volatility': 0.5867, 'positive_ratio': 0.0667, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.9144}
+
+=== 문배철강 분석 시작 ===
+완료 → {'company': '문배철강', 'news_sentiment_score': np.float64(-46.61), 'news_count': 30, 'sentiment_volatility': 0.5422, 'positive_ratio': 0.0667, 'negative_ratio': 0.6, 'recency_weight_mean': 0.4694}
+
+=== 미래산업 분석 시작 ===
+완료 → {'company': '미래산업', 'news_sentiment_score': np.float64(-51.25), 'news_count': 30, 'sentiment_volatility': 0.4648, 'positive_ratio': 0.0, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.9889}
+
+=== 바이오니아 분석 시작 ===
+완료 → {'company': '바이오니아', 'news_sentiment_score': np.float64(-59.34), 'news_count': 30, 'sentiment_volatility': 0.5463, 'positive_ratio': 0.0667, 'negative_ratio': 0.6333, 'recency_weight_mean': 0.524}
+
+=== 바이오스마트 분석 시작 ===
+완료 → {'company': '바이오스마트', 'news_sentiment_score': np.float64(-39.66), 'news_count': 30, 'sentiment_volatility': 0.449, 'positive_ratio': 0.0333, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.5987}
+
+=== 방림 분석 시작 ===
+완료 → {'company': '방림', 'news_sentiment_score': np.float64(-88.29), 'news_count': 30, 'sentiment_volatility': 0.2797, 'positive_ratio': 0.0, 'negative_ratio': 0.9, 'recency_weight_mean': 0.7998}
+
+=== 베뉴지 분석 시작 ===
+완료 → {'company': '베뉴지', 'news_sentiment_score': np.float64(-87.71), 'news_count': 30, 'sentiment_volatility': 0.7878, 'positive_ratio': 0.2667, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.0839}
+
+=== 벽산 분석 시작 ===
+완료 → {'company': '벽산', 'news_sentiment_score': np.float64(-63.64), 'news_count': 30, 'sentiment_volatility': 0.5794, 'positive_ratio': 0.0667, 'negative_ratio': 0.7, 'recency_weight_mean': 0.8834}
+
+=== 부산주공 분석 시작 ===
+완료 → {'company': '부산주공', 'news_sentiment_score': np.float64(-64.9), 'news_count': 30, 'sentiment_volatility': 0.5722, 'positive_ratio': 0.0667, 'negative_ratio': 0.7667, 'recency_weight_mean': 0.4107}
+
+=== 부스타 분석 시작 ===
+완료 → {'company': '부스타', 'news_sentiment_score': np.float64(-53.83), 'news_count': 30, 'sentiment_volatility': 0.5948, 'positive_ratio': 0.0667, 'negative_ratio': 0.6333, 'recency_weight_mean': 0.2926}
+
+=== 브이티 분석 시작 ===
+완료 → {'company': '브이티', 'news_sentiment_score': np.float64(-72.83), 'news_count': 29, 'sentiment_volatility': 0.5515, 'positive_ratio': 0.069, 'negative_ratio': 0.7241, 'recency_weight_mean': 0.5711}
+
+=== 비나텍 분석 시작 ===
+완료 → {'company': '비나텍', 'news_sentiment_score': np.float64(-43.64), 'news_count': 30, 'sentiment_volatility': 0.5228, 'positive_ratio': 0.0333, 'negative_ratio': 0.4, 'recency_weight_mean': 0.5161}
+
+=== 비에이치 분석 시작 ===
+완료 → {'company': '비에이치', 'news_sentiment_score': np.float64(-6.77), 'news_count': 30, 'sentiment_volatility': 0.4389, 'positive_ratio': 0.0667, 'negative_ratio': 0.1333, 'recency_weight_mean': 0.8261}
+
+=== 비엠티 분석 시작 ===
+완료 → {'company': '비엠티', 'news_sentiment_score': np.float64(-25.13), 'news_count': 30, 'sentiment_volatility': 0.5252, 'positive_ratio': 0.0333, 'negative_ratio': 0.4, 'recency_weight_mean': 0.5327}
+
+=== 사조대림 분석 시작 ===
+완료 → {'company': '사조대림', 'news_sentiment_score': np.float64(-50.07), 'news_count': 30, 'sentiment_volatility': 0.6014, 'positive_ratio': 0.0667, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.7619}
+
+=== 사조산업 분석 시작 ===
+완료 → {'company': '사조산업', 'news_sentiment_score': np.float64(-37.65), 'news_count': 29, 'sentiment_volatility': 0.7747, 'positive_ratio': 0.2414, 'negative_ratio': 0.5172, 'recency_weight_mean': 0.6122}
+
+=== 사조오양 분석 시작 ===
+완료 → {'company': '사조오양', 'news_sentiment_score': np.float64(-61.68), 'news_count': 30, 'sentiment_volatility': 0.7854, 'positive_ratio': 0.2, 'negative_ratio': 0.6, 'recency_weight_mean': 0.2214}
+
+=== 삼목에스폼 분석 시작 ===
+완료 → {'company': '삼목에스폼', 'news_sentiment_score': np.float64(-53.87), 'news_count': 30, 'sentiment_volatility': 0.5173, 'positive_ratio': 0.0333, 'negative_ratio': 0.7, 'recency_weight_mean': 0.1361}
+
+=== 삼성E&A 분석 시작 ===
+완료 → {'company': '삼성E&A', 'news_sentiment_score': np.float64(-14.35), 'news_count': 30, 'sentiment_volatility': 0.4807, 'positive_ratio': 0.1, 'negative_ratio': 0.2, 'recency_weight_mean': 0.934}
+
+=== 삼성SDI 분석 시작 ===
+완료 → {'company': '삼성SDI', 'news_sentiment_score': np.float64(-56.26), 'news_count': 30, 'sentiment_volatility': 0.5271, 'positive_ratio': 0.0333, 'negative_ratio': 0.6333, 'recency_weight_mean': 0.9251}
+
+=== 삼성물산 분석 시작 ===
+완료 → {'company': '삼성물산', 'news_sentiment_score': np.float64(-60.24), 'news_count': 30, 'sentiment_volatility': 0.5004, 'positive_ratio': 0.0333, 'negative_ratio': 0.6333, 'recency_weight_mean': 0.9775}
+
+=== 삼성바이오로직스 분석 시작 ===
+완료 → {'company': '삼성바이오로직스', 'news_sentiment_score': np.float64(-54.7), 'news_count': 30, 'sentiment_volatility': 0.5037, 'positive_ratio': 0.0333, 'negative_ratio': 0.6, 'recency_weight_mean': 0.952}
+
+=== 삼성에스디에스 분석 시작 ===
+완료 → {'company': '삼성에스디에스', 'news_sentiment_score': np.float64(-36.67), 'news_count': 30, 'sentiment_volatility': 0.6384, 'positive_ratio': 0.1, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.8437}
+
+=== 삼성전자 분석 시작 ===
+완료 → {'company': '삼성전자', 'news_sentiment_score': np.float64(-72.98), 'news_count': 30, 'sentiment_volatility': 0.4789, 'positive_ratio': 0.0333, 'negative_ratio': 0.8333, 'recency_weight_mean': 0.9928}
+
+=== 삼진엘앤디 분석 시작 ===
+완료 → {'company': '삼진엘앤디', 'news_sentiment_score': np.float64(-43.28), 'news_count': 30, 'sentiment_volatility': 0.6264, 'positive_ratio': 0.1, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.72}
+
+=== 삼천리자전거 분석 시작 ===
+완료 → {'company': '삼천리자전거', 'news_sentiment_score': np.float64(-69.81), 'news_count': 30, 'sentiment_volatility': 0.4582, 'positive_ratio': 0.0333, 'negative_ratio': 0.7, 'recency_weight_mean': 0.394}
+
+=== 삼현철강 분석 시작 ===
+완료 → {'company': '삼현철강', 'news_sentiment_score': np.float64(-45.04), 'news_count': 30, 'sentiment_volatility': 0.5877, 'positive_ratio': 0.0667, 'negative_ratio': 0.5, 'recency_weight_mean': 0.5618}
+
+=== 삼화네트웍스 분석 시작 ===
+완료 → {'company': '삼화네트웍스', 'news_sentiment_score': np.float64(-68.44), 'news_count': 30, 'sentiment_volatility': 0.4436, 'positive_ratio': 0.0333, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.9486}
+
+=== 상신브레이크 분석 시작 ===
+완료 → {'company': '상신브레이크', 'news_sentiment_score': np.float64(-66.48), 'news_count': 30, 'sentiment_volatility': 0.528, 'positive_ratio': 0.0333, 'negative_ratio': 0.7, 'recency_weight_mean': 0.5166}
+
+=== 상신이디피 분석 시작 ===
+완료 → {'company': '상신이디피', 'news_sentiment_score': np.float64(-47.0), 'news_count': 30, 'sentiment_volatility': 0.5887, 'positive_ratio': 0.1, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.529}
+
+=== 상지건설 분석 시작 ===
+완료 → {'company': '상지건설', 'news_sentiment_score': np.float64(-49.17), 'news_count': 30, 'sentiment_volatility': 0.6293, 'positive_ratio': 0.1333, 'negative_ratio': 0.5, 'recency_weight_mean': 0.4072}
+
+=== 샘표 분석 시작 ===
+완료 → {'company': '샘표', 'news_sentiment_score': np.float64(-87.06), 'news_count': 30, 'sentiment_volatility': 0.3389, 'positive_ratio': 0.0, 'negative_ratio': 0.8667, 'recency_weight_mean': 0.9281}
+
+=== 서부T&D 분석 시작 ===
+완료 → {'company': '서부T&D', 'news_sentiment_score': np.float64(-69.62), 'news_count': 30, 'sentiment_volatility': 0.4904, 'positive_ratio': 0.0, 'negative_ratio': 0.5, 'recency_weight_mean': 0.4536}
+
+=== 서연 분석 시작 ===
+완료 → {'company': '서연', 'news_sentiment_score': np.float64(-88.77), 'news_count': 30, 'sentiment_volatility': 0.3007, 'positive_ratio': 0.0, 'negative_ratio': 0.9, 'recency_weight_mean': 0.7864}
+
+=== 서울반도체 분석 시작 ===
+완료 → {'company': '서울반도체', 'news_sentiment_score': np.float64(-18.22), 'news_count': 30, 'sentiment_volatility': 0.7354, 'positive_ratio': 0.2667, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.393}
+
+=== 서울식품 분석 시작 ===
+완료 → {'company': '서울식품', 'news_sentiment_score': np.float64(-47.24), 'news_count': 30, 'sentiment_volatility': 0.6167, 'positive_ratio': 0.1, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.8357}
+
+=== 서울제약 분석 시작 ===
+완료 → {'company': '서울제약', 'news_sentiment_score': np.float64(-44.15), 'news_count': 30, 'sentiment_volatility': 0.6813, 'positive_ratio': 0.1333, 'negative_ratio': 0.5, 'recency_weight_mean': 0.3608}
+
+=== 서한 분석 시작 ===
+완료 → {'company': '서한', 'news_sentiment_score': np.float64(-86.07), 'news_count': 30, 'sentiment_volatility': 0.2892, 'positive_ratio': 0.0, 'negative_ratio': 0.8667, 'recency_weight_mean': 0.9573}
+
+=== 선바이오 분석 시작 ===
+완료 → {'company': '선바이오', 'news_sentiment_score': np.float64(-15.98), 'news_count': 30, 'sentiment_volatility': 0.5882, 'positive_ratio': 0.1, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.0597}
+
+=== 선진뷰티사이언스 분석 시작 ===
+완료 → {'company': '선진뷰티사이언스', 'news_sentiment_score': np.float64(-50.14), 'news_count': 28, 'sentiment_volatility': 0.7392, 'positive_ratio': 0.2143, 'negative_ratio': 0.4643, 'recency_weight_mean': 0.2382}
+
+=== 성문전자 분석 시작 ===
+완료 → {'company': '성문전자', 'news_sentiment_score': np.float64(-33.28), 'news_count': 30, 'sentiment_volatility': 0.5536, 'positive_ratio': 0.0667, 'negative_ratio': 0.5, 'recency_weight_mean': 0.5842}
+
+=== 성안머티리얼스 분석 시작 ===
+완료 → {'company': '성안머티리얼스', 'news_sentiment_score': np.float64(-32.34), 'news_count': 30, 'sentiment_volatility': 0.5914, 'positive_ratio': 0.1, 'negative_ratio': 0.5, 'recency_weight_mean': 0.4701}
+
+=== 성우전자 분석 시작 ===
+완료 → {'company': '성우전자', 'news_sentiment_score': np.float64(-46.5), 'news_count': 30, 'sentiment_volatility': 0.4486, 'positive_ratio': 0.0, 'negative_ratio': 0.4, 'recency_weight_mean': 0.4294}
+
+=== 세명전기 분석 시작 ===
+완료 → {'company': '세명전기', 'news_sentiment_score': np.float64(-20.9), 'news_count': 30, 'sentiment_volatility': 0.4003, 'positive_ratio': 0.0333, 'negative_ratio': 0.2, 'recency_weight_mean': 0.8269}
+
+=== 세방 분석 시작 ===
+완료 → {'company': '세방', 'news_sentiment_score': np.float64(-62.48), 'news_count': 30, 'sentiment_volatility': 0.713, 'positive_ratio': 0.1667, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.7258}
+
+=== 세방전지 분석 시작 ===
+완료 → {'company': '세방전지', 'news_sentiment_score': np.float64(-24.94), 'news_count': 30, 'sentiment_volatility': 0.7881, 'positive_ratio': 0.3333, 'negative_ratio': 0.4, 'recency_weight_mean': 0.5506}
+
+=== 세아베스틸지주 분석 시작 ===
+완료 → {'company': '세아베스틸지주', 'news_sentiment_score': np.float64(14.59), 'news_count': 30, 'sentiment_volatility': 0.6153, 'positive_ratio': 0.2667, 'negative_ratio': 0.1333, 'recency_weight_mean': 0.5946}
+
+=== 셀트리온 분석 시작 ===
+완료 → {'company': '셀트리온', 'news_sentiment_score': np.float64(-31.45), 'news_count': 30, 'sentiment_volatility': 0.5709, 'positive_ratio': 0.0667, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.9607}
+
+=== 소노스퀘어 분석 시작 ===
+완료 → {'company': '소노스퀘어', 'news_sentiment_score': np.float64(-6.4), 'news_count': 29, 'sentiment_volatility': 0.4603, 'positive_ratio': 0.0345, 'negative_ratio': 0.2414, 'recency_weight_mean': 0.178}
+
+=== 쇼박스 분석 시작 ===
+완료 → {'company': '쇼박스', 'news_sentiment_score': np.float64(-62.53), 'news_count': 30, 'sentiment_volatility': 0.5812, 'positive_ratio': 0.0667, 'negative_ratio': 0.7, 'recency_weight_mean': 0.9151}
+
+=== 수산세보틱스 분석 시작 ===
+완료 → {'company': '수산세보틱스', 'news_sentiment_score': np.float64(-76.51), 'news_count': 30, 'sentiment_volatility': 0.4715, 'positive_ratio': 0.0, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.111}
+
+=== 슈프리마에이치큐 분석 시작 ===
+완료 → {'company': '슈프리마에이치큐', 'news_sentiment_score': np.float64(-29.87), 'news_count': 30, 'sentiment_volatility': 0.5555, 'positive_ratio': 0.0667, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.3846}
+
+=== 신라교역 분석 시작 ===
+완료 → {'company': '신라교역', 'news_sentiment_score': np.float64(-14.45), 'news_count': 30, 'sentiment_volatility': 0.6886, 'positive_ratio': 0.1333, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.3568}
+
+=== 신성이엔지 분석 시작 ===
+완료 → {'company': '신성이엔지', 'news_sentiment_score': np.float64(-38.36), 'news_count': 30, 'sentiment_volatility': 0.5728, 'positive_ratio': 0.0667, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.8654}
+
+=== 신진에스엠 분석 시작 ===
+완료 → {'company': '신진에스엠', 'news_sentiment_score': np.float64(-18.35), 'news_count': 30, 'sentiment_volatility': 0.5794, 'positive_ratio': 0.1333, 'negative_ratio': 0.3, 'recency_weight_mean': 0.3402}
+
+=== 싸이토젠 분석 시작 ===
+완료 → {'company': '싸이토젠', 'news_sentiment_score': np.float64(-48.8), 'news_count': 30, 'sentiment_volatility': 0.5235, 'positive_ratio': 0.0333, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.2693}
+
+=== 쎌바이오텍 분석 시작 ===
+완료 → {'company': '쎌바이오텍', 'news_sentiment_score': np.float64(-57.52), 'news_count': 30, 'sentiment_volatility': 0.5224, 'positive_ratio': 0.0333, 'negative_ratio': 0.7, 'recency_weight_mean': 0.1764}
+
+=== 씨큐브 분석 시작 ===
+완료 → {'company': '씨큐브', 'news_sentiment_score': np.float64(-20.59), 'news_count': 28, 'sentiment_volatility': 0.5447, 'positive_ratio': 0.0357, 'negative_ratio': 0.6071, 'recency_weight_mean': 0.2022}
+
+=== 아모레퍼시픽 분석 시작 ===
+완료 → {'company': '아모레퍼시픽', 'news_sentiment_score': np.float64(-70.01), 'news_count': 30, 'sentiment_volatility': 0.408, 'positive_ratio': 0.0, 'negative_ratio': 0.7333, 'recency_weight_mean': 0.9453}
+
+=== 아시아나항공 분석 시작 ===
+완료 → {'company': '아시아나항공', 'news_sentiment_score': np.float64(-77.65), 'news_count': 30, 'sentiment_volatility': 0.5386, 'positive_ratio': 0.0667, 'negative_ratio': 0.8667, 'recency_weight_mean': 0.9127}
+
+=== 아이씨티케이 분석 시작 ===
+완료 → {'company': '아이씨티케이', 'news_sentiment_score': np.float64(-62.49), 'news_count': 30, 'sentiment_volatility': 0.4783, 'positive_ratio': 0.0, 'negative_ratio': 0.6, 'recency_weight_mean': 0.5416}
+
+=== 아이엠 분석 시작 ===
+완료 → {'company': '아이엠', 'news_sentiment_score': np.float64(-64.04), 'news_count': 30, 'sentiment_volatility': 0.6412, 'positive_ratio': 0.1, 'negative_ratio': 0.7333, 'recency_weight_mean': 0.8743}
+
+=== 아이즈비전 분석 시작 ===
+완료 → {'company': '아이즈비전', 'news_sentiment_score': np.float64(-59.66), 'news_count': 30, 'sentiment_volatility': 0.4472, 'positive_ratio': 0.0, 'negative_ratio': 0.6, 'recency_weight_mean': 0.3579}
+
+=== 아이티센엔텍 분석 시작 ===
+완료 → {'company': '아이티센엔텍', 'news_sentiment_score': np.float64(-46.94), 'news_count': 29, 'sentiment_volatility': 0.5188, 'positive_ratio': 0.069, 'negative_ratio': 0.5172, 'recency_weight_mean': 0.7973}
+
+=== 아이패밀리에스씨 분석 시작 ===
+완료 → {'company': '아이패밀리에스씨', 'news_sentiment_score': np.float64(-8.35), 'news_count': 30, 'sentiment_volatility': 0.6402, 'positive_ratio': 0.1667, 'negative_ratio': 0.3, 'recency_weight_mean': 0.7621}
+
+=== 아주스틸 분석 시작 ===
+완료 → {'company': '아주스틸', 'news_sentiment_score': np.float64(-30.64), 'news_count': 30, 'sentiment_volatility': 0.7815, 'positive_ratio': 0.2667, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.6537}
+
+=== 알에프텍 분석 시작 ===
+완료 → {'company': '알에프텍', 'news_sentiment_score': np.float64(-62.23), 'news_count': 30, 'sentiment_volatility': 0.6686, 'positive_ratio': 0.1667, 'negative_ratio': 0.4, 'recency_weight_mean': 0.4489}
+
+=== 알티캐스트 분석 시작 ===
+완료 → {'company': '알티캐스트', 'news_sentiment_score': np.float64(-39.21), 'news_count': 30, 'sentiment_volatility': 0.5847, 'positive_ratio': 0.0667, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.1632}
+
+=== 에스디생명공학 분석 시작 ===
+완료 → {'company': '에스디생명공학', 'news_sentiment_score': np.float64(-45.32), 'news_count': 30, 'sentiment_volatility': 0.8164, 'positive_ratio': 0.2667, 'negative_ratio': 0.6, 'recency_weight_mean': 0.3111}
+
+=== 에스디시스템 분석 시작 ===
+완료 → {'company': '에스디시스템', 'news_sentiment_score': np.float64(-51.33), 'news_count': 30, 'sentiment_volatility': 0.4414, 'positive_ratio': 0.0, 'negative_ratio': 0.7333, 'recency_weight_mean': 0.0341}
+
+=== 에스앤더블류 분석 시작 ===
+완료 → {'company': '에스앤더블류', 'news_sentiment_score': np.float64(-31.47), 'news_count': 30, 'sentiment_volatility': 0.5007, 'positive_ratio': 0.0333, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.4891}
+
+=== 에스에이엠티 분석 시작 ===
+완료 → {'company': '에스에이엠티', 'news_sentiment_score': np.float64(-42.36), 'news_count': 30, 'sentiment_volatility': 0.4376, 'positive_ratio': 0.0, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.4054}
+
+=== 에스에이티 분석 시작 ===
+완료 → {'company': '에스에이티', 'news_sentiment_score': np.float64(-65.47), 'news_count': 29, 'sentiment_volatility': 0.5323, 'positive_ratio': 0.0345, 'negative_ratio': 0.4828, 'recency_weight_mean': 0.0929}
+
+=== 에스피지 분석 시작 ===
+완료 → {'company': '에스피지', 'news_sentiment_score': np.float64(-54.42), 'news_count': 30, 'sentiment_volatility': 0.5412, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.5207}
+
+=== 에쓰씨엔지니어링 분석 시작 ===
+완료 → {'company': '에쓰씨엔지니어링', 'news_sentiment_score': np.float64(-75.62), 'news_count': 29, 'sentiment_volatility': 0.4411, 'positive_ratio': 0.0, 'negative_ratio': 0.6552, 'recency_weight_mean': 0.1949}
+
+=== 에이디테크놀로지 분석 시작 ===
+완료 → {'company': '에이디테크놀로지', 'news_sentiment_score': np.float64(-47.25), 'news_count': 30, 'sentiment_volatility': 0.5413, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.881}
+
+=== 에코프로 분석 시작 ===
+완료 → {'company': '에코프로', 'news_sentiment_score': np.float64(6.19), 'news_count': 30, 'sentiment_volatility': 0.6504, 'positive_ratio': 0.2667, 'negative_ratio': 0.2, 'recency_weight_mean': 0.9808}
+
+=== 에프에스티 분석 시작 ===
+완료 → {'company': '에프에스티', 'news_sentiment_score': np.float64(-45.28), 'news_count': 30, 'sentiment_volatility': 0.4786, 'positive_ratio': 0.0, 'negative_ratio': 0.4, 'recency_weight_mean': 0.3228}
+
+=== 엔씨소프트 분석 시작 ===
+완료 → {'company': '엔씨소프트', 'news_sentiment_score': np.float64(-80.01), 'news_count': 30, 'sentiment_volatility': 0.4343, 'positive_ratio': 0.0333, 'negative_ratio': 0.8667, 'recency_weight_mean': 0.9842}
+
+=== 엔에스이엔엠 분석 시작 ===
+완료 → {'company': '엔에스이엔엠', 'news_sentiment_score': np.float64(-45.01), 'news_count': 30, 'sentiment_volatility': 0.5351, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.4751}
+
+=== 엠에스씨 분석 시작 ===
+완료 → {'company': '엠에스씨', 'news_sentiment_score': np.float64(-63.28), 'news_count': 30, 'sentiment_volatility': 0.4751, 'positive_ratio': 0.0, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.3145}
+
+=== 엠케이전자 분석 시작 ===
+완료 → {'company': '엠케이전자', 'news_sentiment_score': np.float64(-10.06), 'news_count': 30, 'sentiment_volatility': 0.4979, 'positive_ratio': 0.1, 'negative_ratio': 0.1667, 'recency_weight_mean': 0.7487}
+
+=== 영원무역 분석 시작 ===
+완료 → {'company': '영원무역', 'news_sentiment_score': np.float64(-14.52), 'news_count': 30, 'sentiment_volatility': 0.4541, 'positive_ratio': 0.0667, 'negative_ratio': 0.2, 'recency_weight_mean': 0.7458}
+
+=== 영풍 분석 시작 ===
+완료 → {'company': '영풍', 'news_sentiment_score': np.float64(22.92), 'news_count': 30, 'sentiment_volatility': 0.8054, 'positive_ratio': 0.5667, 'negative_ratio': 0.4, 'recency_weight_mean': 0.9878}
+
+=== 예스티 분석 시작 ===
+완료 → {'company': '예스티', 'news_sentiment_score': np.float64(-16.99), 'news_count': 30, 'sentiment_volatility': 0.5472, 'positive_ratio': 0.0667, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.3871}
+
+=== 오공 분석 시작 ===
+완료 → {'company': '오공', 'news_sentiment_score': np.float64(-53.68), 'news_count': 30, 'sentiment_volatility': 0.5134, 'positive_ratio': 0.0667, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.571}
+
+=== 오뚜기 분석 시작 ===
+완료 → {'company': '오뚜기', 'news_sentiment_score': np.float64(-99.8), 'news_count': 30, 'sentiment_volatility': 0.0052, 'positive_ratio': 0.0, 'negative_ratio': 1.0, 'recency_weight_mean': 0.9865}
+
+=== 오로라 분석 시작 ===
+완료 → {'company': '오로라', 'news_sentiment_score': np.float64(-90.47), 'news_count': 30, 'sentiment_volatility': 0.2622, 'positive_ratio': 0.0, 'negative_ratio': 0.9, 'recency_weight_mean': 0.9315}
+
+=== 오리콤 분석 시작 ===
+완료 → {'company': '오리콤', 'news_sentiment_score': np.float64(-58.07), 'news_count': 30, 'sentiment_volatility': 0.5689, 'positive_ratio': 0.0667, 'negative_ratio': 0.6, 'recency_weight_mean': 0.458}
+
+=== 오텍 분석 시작 ===
+완료 → {'company': '오텍', 'news_sentiment_score': np.float64(-31.61), 'news_count': 30, 'sentiment_volatility': 0.4774, 'positive_ratio': 0.0333, 'negative_ratio': 0.4, 'recency_weight_mean': 0.5738}
+
+=== 옴니시스템 분석 시작 ===
+완료 → {'company': '옴니시스템', 'news_sentiment_score': np.float64(-57.36), 'news_count': 30, 'sentiment_volatility': 0.5906, 'positive_ratio': 0.1, 'negative_ratio': 0.3, 'recency_weight_mean': 0.1729}
+
+=== 옵트론텍 분석 시작 ===
+완료 → {'company': '옵트론텍', 'news_sentiment_score': np.float64(-42.05), 'news_count': 30, 'sentiment_volatility': 0.4538, 'positive_ratio': 0.0, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.8716}
+
+=== 와이어블 분석 시작 ===
+완료 → {'company': '와이어블', 'news_sentiment_score': np.float64(-42.82), 'news_count': 30, 'sentiment_volatility': 0.4698, 'positive_ratio': 0.0, 'negative_ratio': 0.5, 'recency_weight_mean': 0.3306}
+
+=== 와이즈버즈 분석 시작 ===
+완료 → {'company': '와이즈버즈', 'news_sentiment_score': np.float64(-59.91), 'news_count': 30, 'sentiment_volatility': 0.4413, 'positive_ratio': 0.0, 'negative_ratio': 0.6, 'recency_weight_mean': 0.8564}
+
+=== 와이지-원 분석 시작 ===
+완료 → {'company': '와이지-원', 'news_sentiment_score': np.float64(-72.12), 'news_count': 30, 'sentiment_volatility': 0.5245, 'positive_ratio': 0.0333, 'negative_ratio': 0.6333, 'recency_weight_mean': 0.6341}
+
+=== 우리기술투자 분석 시작 ===
+완료 → {'company': '우리기술투자', 'news_sentiment_score': np.float64(-70.28), 'news_count': 30, 'sentiment_volatility': 0.5661, 'positive_ratio': 0.0667, 'negative_ratio': 0.7667, 'recency_weight_mean': 0.9126}
+
+=== 우성 분석 시작 ===
+완료 → {'company': '우성', 'news_sentiment_score': np.float64(-78.85), 'news_count': 30, 'sentiment_volatility': 0.3568, 'positive_ratio': 0.0, 'negative_ratio': 0.8, 'recency_weight_mean': 0.9651}
+
+=== 우신시스템 분석 시작 ===
+완료 → {'company': '우신시스템', 'news_sentiment_score': np.float64(-64.77), 'news_count': 30, 'sentiment_volatility': 0.4452, 'positive_ratio': 0.0, 'negative_ratio': 0.6333, 'recency_weight_mean': 0.6908}
+
+=== 우양에이치씨 분석 시작 ===
+완료 → {'company': '우양에이치씨', 'news_sentiment_score': np.float64(-84.78), 'news_count': 30, 'sentiment_volatility': 0.606, 'positive_ratio': 0.1, 'negative_ratio': 0.4, 'recency_weight_mean': 0.2102}
+
+=== 우주일렉트로 분석 시작 ===
+완료 → {'company': '우주일렉트로', 'news_sentiment_score': np.float64(-76.31), 'news_count': 30, 'sentiment_volatility': 0.5447, 'positive_ratio': 0.0333, 'negative_ratio': 0.6, 'recency_weight_mean': 0.342}
+
+=== 원림 분석 시작 ===
+완료 → {'company': '원림', 'news_sentiment_score': np.float64(-80.87), 'news_count': 27, 'sentiment_volatility': 0.4762, 'positive_ratio': 0.0, 'negative_ratio': 0.6296, 'recency_weight_mean': 0.498}
+
+=== 원익큐브 분석 시작 ===
+완료 → {'company': '원익큐브', 'news_sentiment_score': np.float64(-39.68), 'news_count': 30, 'sentiment_volatility': 0.4788, 'positive_ratio': 0.0, 'negative_ratio': 0.4, 'recency_weight_mean': 0.3414}
+
+=== 월덱스 분석 시작 ===
+완료 → {'company': '월덱스', 'news_sentiment_score': np.float64(-34.23), 'news_count': 30, 'sentiment_volatility': 0.5289, 'positive_ratio': 0.0333, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.2946}
+
+=== 웰크론 분석 시작 ===
+완료 → {'company': '웰크론', 'news_sentiment_score': np.float64(-53.41), 'news_count': 30, 'sentiment_volatility': 0.4546, 'positive_ratio': 0.0, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.4351}
+
+=== 유니온머티리얼 분석 시작 ===
+완료 → {'company': '유니온머티리얼', 'news_sentiment_score': np.float64(-1.85), 'news_count': 30, 'sentiment_volatility': 0.3818, 'positive_ratio': 0.0667, 'negative_ratio': 0.1333, 'recency_weight_mean': 0.6583}
+
+=== 유니켐 분석 시작 ===
+완료 → {'company': '유니켐', 'news_sentiment_score': np.float64(-52.78), 'news_count': 29, 'sentiment_volatility': 0.4614, 'positive_ratio': 0.0, 'negative_ratio': 0.4828, 'recency_weight_mean': 0.1427}
+
+=== 유니테스트 분석 시작 ===
+완료 → {'company': '유니테스트', 'news_sentiment_score': np.float64(-43.8), 'news_count': 30, 'sentiment_volatility': 0.6304, 'positive_ratio': 0.1, 'negative_ratio': 0.5, 'recency_weight_mean': 0.7025}
+
+=== 유비온 분석 시작 ===
+완료 → {'company': '유비온', 'news_sentiment_score': np.float64(-79.69), 'news_count': 30, 'sentiment_volatility': 0.4026, 'positive_ratio': 0.0, 'negative_ratio': 0.7333, 'recency_weight_mean': 0.2372}
+
+=== 유비쿼스홀딩스 분석 시작 ===
+완료 → {'company': '유비쿼스홀딩스', 'news_sentiment_score': np.float64(-52.88), 'news_count': 30, 'sentiment_volatility': 0.5552, 'positive_ratio': 0.0667, 'negative_ratio': 0.6, 'recency_weight_mean': 0.3701}
+
+=== 인스코비 분석 시작 ===
+완료 → {'company': '인스코비', 'news_sentiment_score': np.float64(-41.42), 'news_count': 30, 'sentiment_volatility': 0.5239, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.6891}
+
+=== 인지소프트 분석 시작 ===
+완료 → {'company': '인지소프트', 'news_sentiment_score': np.float64(-24.76), 'news_count': 30, 'sentiment_volatility': 0.3985, 'positive_ratio': 0.0, 'negative_ratio': 0.2, 'recency_weight_mean': 0.1151}
+
+=== 인지컨트롤스 분석 시작 ===
+완료 → {'company': '인지컨트롤스', 'news_sentiment_score': np.float64(-37.67), 'news_count': 30, 'sentiment_volatility': 0.539, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.5996}
+
+=== 인텍플러스 분석 시작 ===
+완료 → {'company': '인텍플러스', 'news_sentiment_score': np.float64(-39.83), 'news_count': 30, 'sentiment_volatility': 0.566, 'positive_ratio': 0.0667, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.4495}
+
+=== 일신바이오 분석 시작 ===
+완료 → {'company': '일신바이오', 'news_sentiment_score': np.float64(-84.9), 'news_count': 30, 'sentiment_volatility': 0.6002, 'positive_ratio': 0.0667, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.2611}
+
+=== 일진전기 분석 시작 ===
+완료 → {'company': '일진전기', 'news_sentiment_score': np.float64(-46.42), 'news_count': 30, 'sentiment_volatility': 0.5713, 'positive_ratio': 0.0667, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.8445}
+
+=== 제이스코홀딩스 분석 시작 ===
+완료 → {'company': '제이스코홀딩스', 'news_sentiment_score': np.float64(-55.94), 'news_count': 29, 'sentiment_volatility': 0.4737, 'positive_ratio': 0.0, 'negative_ratio': 0.5517, 'recency_weight_mean': 0.3177}
+
+=== 제이엠아이 분석 시작 ===
+완료 → {'company': '제이엠아이', 'news_sentiment_score': np.float64(-18.37), 'news_count': 30, 'sentiment_volatility': 0.6258, 'positive_ratio': 0.1333, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.1332}
+
+=== 조광페인트 분석 시작 ===
+완료 → {'company': '조광페인트', 'news_sentiment_score': np.float64(-83.54), 'news_count': 30, 'sentiment_volatility': 0.4178, 'positive_ratio': 0.0333, 'negative_ratio': 0.9, 'recency_weight_mean': 0.7819}
+
+=== 조이시티 분석 시작 ===
+완료 → {'company': '조이시티', 'news_sentiment_score': np.float64(-0.49), 'news_count': 29, 'sentiment_volatility': 0.214, 'positive_ratio': 0.0345, 'negative_ratio': 0.0, 'recency_weight_mean': 0.9499}
+
+=== 조일알미늄 분석 시작 ===
+완료 → {'company': '조일알미늄', 'news_sentiment_score': np.float64(-49.58), 'news_count': 30, 'sentiment_volatility': 0.5531, 'positive_ratio': 0.0667, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.4964}
+
+=== 진로발효 분석 시작 ===
+완료 → {'company': '진로발효', 'news_sentiment_score': np.float64(-98.19), 'news_count': 30, 'sentiment_volatility': 0.1952, 'positive_ratio': 0.0, 'negative_ratio': 0.9667, 'recency_weight_mean': 0.0624}
+
+=== 진바이오텍 분석 시작 ===
+완료 → {'company': '진바이오텍', 'news_sentiment_score': np.float64(-68.89), 'news_count': 30, 'sentiment_volatility': 0.5341, 'positive_ratio': 0.0333, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.1978}
+
+=== 진성티이씨 분석 시작 ===
+완료 → {'company': '진성티이씨', 'news_sentiment_score': np.float64(-67.77), 'news_count': 30, 'sentiment_volatility': 0.4667, 'positive_ratio': 0.0, 'negative_ratio': 0.6667, 'recency_weight_mean': 0.4659}
+
+=== 진양산업 분석 시작 ===
+완료 → {'company': '진양산업', 'news_sentiment_score': np.float64(-43.28), 'news_count': 30, 'sentiment_volatility': 0.7362, 'positive_ratio': 0.2, 'negative_ratio': 0.4667, 'recency_weight_mean': 0.2255}
+
+=== 진양폴리 분석 시작 ===
+완료 → {'company': '진양폴리', 'news_sentiment_score': np.float64(-64.19), 'news_count': 30, 'sentiment_volatility': 0.746, 'positive_ratio': 0.2, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.2199}
+
+=== 진양홀딩스 분석 시작 ===
+완료 → {'company': '진양홀딩스', 'news_sentiment_score': np.float64(10.88), 'news_count': 30, 'sentiment_volatility': 0.5753, 'positive_ratio': 0.0667, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.1646}
+
+=== 참엔지니어링 분석 시작 ===
+완료 → {'company': '참엔지니어링', 'news_sentiment_score': np.float64(-23.69), 'news_count': 30, 'sentiment_volatility': 0.5903, 'positive_ratio': 0.1, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.1891}
+
+=== 체시스 분석 시작 ===
+완료 → {'company': '체시스', 'news_sentiment_score': np.float64(-61.17), 'news_count': 30, 'sentiment_volatility': 0.5275, 'positive_ratio': 0.0333, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.3213}
+
+=== 카카오 분석 시작 ===
+완료 → {'company': '카카오', 'news_sentiment_score': np.float64(-86.8), 'news_count': 30, 'sentiment_volatility': 0.4801, 'positive_ratio': 0.0667, 'negative_ratio': 0.9333, 'recency_weight_mean': 0.9985}
+
+=== 카페24 분석 시작 ===
+완료 → {'company': '카페24', 'news_sentiment_score': np.float64(-32.0), 'news_count': 30, 'sentiment_volatility': 0.4172, 'positive_ratio': 0.0, 'negative_ratio': 0.3, 'recency_weight_mean': 0.961}
+
+=== 켐트로닉스 분석 시작 ===
+완료 → {'company': '켐트로닉스', 'news_sentiment_score': np.float64(-20.91), 'news_count': 30, 'sentiment_volatility': 0.6896, 'positive_ratio': 0.1667, 'negative_ratio': 0.4333, 'recency_weight_mean': 0.5817}
+
+=== 코세스 분석 시작 ===
+완료 → {'company': '코세스', 'news_sentiment_score': np.float64(-27.95), 'news_count': 30, 'sentiment_volatility': 0.5537, 'positive_ratio': 0.0667, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.6792}
+
+=== 코스맥스비티아이 분석 시작 ===
+완료 → {'company': '코스맥스비티아이', 'news_sentiment_score': np.float64(-33.58), 'news_count': 30, 'sentiment_volatility': 0.5025, 'positive_ratio': 0.0333, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.4544}
+
+=== 코스모신소재 분석 시작 ===
+완료 → {'company': '코스모신소재', 'news_sentiment_score': np.float64(-32.49), 'news_count': 30, 'sentiment_volatility': 0.5035, 'positive_ratio': 0.0333, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.8191}
+
+=== 코오롱글로벌 분석 시작 ===
+완료 → {'company': '코오롱글로벌', 'news_sentiment_score': np.float64(-69.2), 'news_count': 30, 'sentiment_volatility': 0.5427, 'positive_ratio': 0.0667, 'negative_ratio': 0.8, 'recency_weight_mean': 0.9469}
+
+=== 코칩 분석 시작 ===
+완료 → {'company': '코칩', 'news_sentiment_score': np.float64(-27.6), 'news_count': 30, 'sentiment_volatility': 0.3504, 'positive_ratio': 0.0, 'negative_ratio': 0.1667, 'recency_weight_mean': 0.2941}
+
+=== 큐로홀딩스 분석 시작 ===
+완료 → {'company': '큐로홀딩스', 'news_sentiment_score': np.float64(-45.91), 'news_count': 29, 'sentiment_volatility': 0.4898, 'positive_ratio': 0.0345, 'negative_ratio': 0.5172, 'recency_weight_mean': 0.711}
+
+=== 큐에스아이 분석 시작 ===
+완료 → {'company': '큐에스아이', 'news_sentiment_score': np.float64(-24.94), 'news_count': 30, 'sentiment_volatility': 0.5779, 'positive_ratio': 0.0667, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.4276}
+
+=== 클래시스 분석 시작 ===
+완료 → {'company': '클래시스', 'news_sentiment_score': np.float64(-51.73), 'news_count': 29, 'sentiment_volatility': 0.6449, 'positive_ratio': 0.1034, 'negative_ratio': 0.5862, 'recency_weight_mean': 0.95}
+
+=== 태경케미컬 분석 시작 ===
+완료 → {'company': '태경케미컬', 'news_sentiment_score': np.float64(-57.25), 'news_count': 30, 'sentiment_volatility': 0.5961, 'positive_ratio': 0.0667, 'negative_ratio': 0.5, 'recency_weight_mean': 0.2403}
+
+=== 태광 분석 시작 ===
+완료 → {'company': '태광', 'news_sentiment_score': np.float64(-65.06), 'news_count': 30, 'sentiment_volatility': 0.6285, 'positive_ratio': 0.1, 'negative_ratio': 0.7667, 'recency_weight_mean': 0.9838}
+
+=== 태웅 분석 시작 ===
+완료 → {'company': '태웅', 'news_sentiment_score': np.float64(-57.07), 'news_count': 30, 'sentiment_volatility': 0.4769, 'positive_ratio': 0.0, 'negative_ratio': 0.6, 'recency_weight_mean': 0.7601}
+
+=== 테크엘 분석 시작 ===
+완료 → {'company': '테크엘', 'news_sentiment_score': np.float64(-14.43), 'news_count': 30, 'sentiment_volatility': 0.4057, 'positive_ratio': 0.0, 'negative_ratio': 0.6, 'recency_weight_mean': 0.012}
+
+=== 티케이지애강 분석 시작 ===
+완료 → {'company': '티케이지애강', 'news_sentiment_score': np.float64(-60.72), 'news_count': 30, 'sentiment_volatility': 0.5761, 'positive_ratio': 0.0667, 'negative_ratio': 0.7667, 'recency_weight_mean': 0.172}
+
+=== 티플랙스 분석 시작 ===
+완료 → {'company': '티플랙스', 'news_sentiment_score': np.float64(-49.64), 'news_count': 30, 'sentiment_volatility': 0.5055, 'positive_ratio': 0.0333, 'negative_ratio': 0.7, 'recency_weight_mean': 0.3997}
+
+=== 퍼스텍 분석 시작 ===
+완료 → {'company': '퍼스텍', 'news_sentiment_score': np.float64(-33.54), 'news_count': 30, 'sentiment_volatility': 0.6171, 'positive_ratio': 0.1333, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.7272}
+
+=== 푸드웰 분석 시작 ===
+완료 → {'company': '푸드웰', 'news_sentiment_score': np.float64(-19.06), 'news_count': 29, 'sentiment_volatility': 0.4993, 'positive_ratio': 0.0345, 'negative_ratio': 0.2759, 'recency_weight_mean': 0.2678}
+
+=== 풀무원 분석 시작 ===
+완료 → {'company': '풀무원', 'news_sentiment_score': np.float64(-25.09), 'news_count': 29, 'sentiment_volatility': 0.4432, 'positive_ratio': 0.0345, 'negative_ratio': 0.2414, 'recency_weight_mean': 0.9719}
+
+=== 프럼파스트 분석 시작 ===
+완료 → {'company': '프럼파스트', 'news_sentiment_score': np.float64(-77.07), 'news_count': 30, 'sentiment_volatility': 0.5506, 'positive_ratio': 0.0333, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.3526}
+
+=== 플레이위드 분석 시작 ===
+완료 → {'company': '플레이위드', 'news_sentiment_score': np.float64(-14.14), 'news_count': 30, 'sentiment_volatility': 0.7546, 'positive_ratio': 0.2333, 'negative_ratio': 0.3667, 'recency_weight_mean': 0.8662}
+
+=== 하츠 분석 시작 ===
+완료 → {'company': '하츠', 'news_sentiment_score': np.float64(-92.59), 'news_count': 30, 'sentiment_volatility': 0.2486, 'positive_ratio': 0.0, 'negative_ratio': 0.9333, 'recency_weight_mean': 0.9714}
+
+=== 한국공항 분석 시작 ===
+완료 → {'company': '한국공항', 'news_sentiment_score': np.float64(-85.49), 'news_count': 30, 'sentiment_volatility': 0.3855, 'positive_ratio': 0.0333, 'negative_ratio': 0.9333, 'recency_weight_mean': 0.9713}
+
+=== 한국알콜 분석 시작 ===
+완료 → {'company': '한국알콜', 'news_sentiment_score': np.float64(-70.28), 'news_count': 29, 'sentiment_volatility': 0.52, 'positive_ratio': 0.0345, 'negative_ratio': 0.6897, 'recency_weight_mean': 0.279}
+
+=== 한국전력 분석 시작 ===
+완료 → {'company': '한국전력', 'news_sentiment_score': np.float64(-38.7), 'news_count': 30, 'sentiment_volatility': 0.561, 'positive_ratio': 0.0667, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.9842}
+
+=== 한농화성 분석 시작 ===
+완료 → {'company': '한농화성', 'news_sentiment_score': np.float64(-51.24), 'news_count': 30, 'sentiment_volatility': 0.5963, 'positive_ratio': 0.0667, 'negative_ratio': 0.5667, 'recency_weight_mean': 0.7507}
+
+=== 한빛소프트 분석 시작 ===
+완료 → {'company': '한빛소프트', 'news_sentiment_score': np.float64(-64.88), 'news_count': 30, 'sentiment_volatility': 0.5006, 'positive_ratio': 0.0333, 'negative_ratio': 0.7333, 'recency_weight_mean': 0.8782}
+
+=== 한성크린텍 분석 시작 ===
+완료 → {'company': '한성크린텍', 'news_sentiment_score': np.float64(-72.56), 'news_count': 28, 'sentiment_volatility': 0.462, 'positive_ratio': 0.0, 'negative_ratio': 0.4643, 'recency_weight_mean': 0.1802}
+
+=== 한신공영 분석 시작 ===
+완료 → {'company': '한신공영', 'news_sentiment_score': np.float64(-77.91), 'news_count': 30, 'sentiment_volatility': 0.3751, 'positive_ratio': 0.0, 'negative_ratio': 0.8, 'recency_weight_mean': 0.9077}
+
+=== 한온시스템 분석 시작 ===
+완료 → {'company': '한온시스템', 'news_sentiment_score': np.float64(-16.3), 'news_count': 30, 'sentiment_volatility': 0.3643, 'positive_ratio': 0.0, 'negative_ratio': 0.1667, 'recency_weight_mean': 0.9598}
+
+=== 한올바이오파마 분석 시작 ===
+완료 → {'company': '한올바이오파마', 'news_sentiment_score': np.float64(-38.85), 'news_count': 30, 'sentiment_volatility': 0.5171, 'positive_ratio': 0.0333, 'negative_ratio': 0.3333, 'recency_weight_mean': 0.6415}
+
+=== 한창 분석 시작 ===
+완료 → {'company': '한창', 'news_sentiment_score': np.float64(-89.86), 'news_count': 26, 'sentiment_volatility': 0.2292, 'positive_ratio': 0.0385, 'negative_ratio': 0.9615, 'recency_weight_mean': 0.9517}
+
+=== 한화 분석 시작 ===
+완료 → {'company': '한화', 'news_sentiment_score': np.float64(-55.8), 'news_count': 30, 'sentiment_volatility': 0.5457, 'positive_ratio': 0.0333, 'negative_ratio': 0.6, 'recency_weight_mean': 0.9988}
+
+=== 한화에어로스페이스 분석 시작 ===
+완료 → {'company': '한화에어로스페이스', 'news_sentiment_score': np.float64(-86.44), 'news_count': 30, 'sentiment_volatility': 0.3335, 'positive_ratio': 0.0, 'negative_ratio': 0.8667, 'recency_weight_mean': 0.9668}
+
+=== 해성산업 분석 시작 ===
+완료 → {'company': '해성산업', 'news_sentiment_score': np.float64(-55.86), 'news_count': 30, 'sentiment_volatility': 0.7791, 'positive_ratio': 0.2, 'negative_ratio': 0.6, 'recency_weight_mean': 0.221}
+
+=== 현대모비스 분석 시작 ===
+완료 → {'company': '현대모비스', 'news_sentiment_score': np.float64(-1.29), 'news_count': 30, 'sentiment_volatility': 0.2491, 'positive_ratio': 0.0333, 'negative_ratio': 0.0333, 'recency_weight_mean': 0.9773}
+
+=== 현대지에프홀딩스 분석 시작 ===
+완료 → {'company': '현대지에프홀딩스', 'news_sentiment_score': np.float64(-86.83), 'news_count': 30, 'sentiment_volatility': 0.3155, 'positive_ratio': 0.0, 'negative_ratio': 0.8667, 'recency_weight_mean': 0.8559}
+
+=== 현대차 분석 시작 ===
+완료 → {'company': '현대차', 'news_sentiment_score': np.float64(-74.53), 'news_count': 30, 'sentiment_volatility': 0.5402, 'positive_ratio': 0.0667, 'negative_ratio': 0.8, 'recency_weight_mean': 0.9977}
+
+=== 형지I&C 분석 시작 ===
+완료 → {'company': '형지I&C', 'news_sentiment_score': np.float64(-78.7), 'news_count': 30, 'sentiment_volatility': 0.3705, 'positive_ratio': 0.0, 'negative_ratio': 0.8, 'recency_weight_mean': 0.8969}
+
+=== 형지엘리트 분석 시작 ===
+완료 → {'company': '형지엘리트', 'news_sentiment_score': np.float64(-31.02), 'news_count': 30, 'sentiment_volatility': 0.4288, 'positive_ratio': 0.0, 'negative_ratio': 0.2667, 'recency_weight_mean': 0.9071}
+
+=== 호텔신라 분석 시작 ===
+완료 → {'company': '호텔신라', 'news_sentiment_score': np.float64(-92.55), 'news_count': 26, 'sentiment_volatility': 0.2096, 'positive_ratio': 0.0, 'negative_ratio': 0.9615, 'recency_weight_mean': 0.9695}
+
+=== 화성밸브 분석 시작 ===
+완료 → {'company': '화성밸브', 'news_sentiment_score': np.float64(-62.6), 'news_count': 30, 'sentiment_volatility': 0.4756, 'positive_ratio': 0.0, 'negative_ratio': 0.5333, 'recency_weight_mean': 0.2798}
+
+=== 화승코퍼레이션 분석 시작 ===
+완료 → {'company': '화승코퍼레이션', 'news_sentiment_score': np.float64(-74.31), 'news_count': 30, 'sentiment_volatility': 0.3862, 'positive_ratio': 0.0, 'negative_ratio': 0.8, 'recency_weight_mean': 0.3597}
+
+=== 효성 분석 시작 ===
+완료 → {'company': '효성', 'news_sentiment_score': np.float64(-59.62), 'news_count': 30, 'sentiment_volatility': 0.4846, 'positive_ratio': 0.0, 'negative_ratio': 0.6, 'recency_weight_mean': 0.9781}
+
+=== 효성ITX 분석 시작 ===
+완료 → {'company': '효성ITX', 'news_sentiment_score': np.float64(-31.3), 'news_count': 29, 'sentiment_volatility': 0.781, 'positive_ratio': 0.2759, 'negative_ratio': 0.4138, 'recency_weight_mean': 0.2999}

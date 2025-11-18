@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kiwoom_finance"
+version = "0.1.0"
+description = "Batch financial metrics from DART for credit analysis"
+authors = [{ name = "Your Team", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.23",
+  "dart-fss>=0.4.3",
+  "python-dotenv>=1.0",
+  "fastapi>=0.110",
+  "uvicorn>=0.22"
+]
+
+[project.scripts]
+kiwoom-dart-batch = "kiwoom_finance.batch_runner.dart_batch:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

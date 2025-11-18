@@ -1,0 +1,20 @@
+[project]
+name = "project1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "최정훈",email = "jeonghunchoe74@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.119.0,<0.120.0)",
+    "uvicorn (>=0.37.0,<0.38.0)"
+]
+
+[tool.poetry]
+packages = [{include = "project1", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
